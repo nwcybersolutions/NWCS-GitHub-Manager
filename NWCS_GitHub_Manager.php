@@ -5,7 +5,7 @@ Plugin URI: https://github.com/nwcybersolutions/NWCS-GitHub-Manager
 Description: Install, Update, and Manage GitHub Repositories (Themes & Plugins)
 Author: Northwest Cyber Solutions
 Author URI: https://nwcybersolutions.com
-Version: 1.0.0
+Version: 1.0.1
 License: MIT
 License URI: https://opensource.org/licenses/MIT
 Text Domain: NWCS GitHub Manager
