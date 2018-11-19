@@ -79,7 +79,7 @@ class Pusher implements Container
             ? 'network_admin_plugin_action_links_'
             : 'plugin_action_links_';
 
-        $link = '<a href="'. $url .'"><img src="https://nwcybersolutions.com/png_400px.png" style="float: none; width: 20px; height: 17px; padding: 0; position: relative; bottom: -2px;">&nbsp; Manage</a>';
+        $link = '<a href="'. $url .'"><img src="https://nwcybersolutions.com/Files/Uploads/png_400px.png" style="float: none; width: 20px; height: 17px; padding: 0; position: relative; bottom: -2px;">&nbsp; Manage</a>';
 
         foreach ($plugins as $plugin) {
             add_filter($prefix  . $plugin->file, function ($links) use ($link)
