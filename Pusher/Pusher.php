@@ -50,7 +50,7 @@ class Pusher implements Container
 
     public function adminMenu()
     {
-        add_menu_page($this->getName(), $this->getName(), 'manage_options', 'nwcybersolutions_gm', array($this->make('Pusher\Dashboard'), 'getIndex'), 'dashicons-marker');
+        add_menu_page($this->getName(), $this->getName(), 'manage_options', 'nwcybersolutions_gm', array($this->make('Pusher\Dashboard'), 'getIndex'), 'dashicons-update');
         add_submenu_page('nwcybersolutions_gm', 'Install Plugin', 'Install Plugin', 'manage_options', 'nwcybersolutions_gm-plugins-create', array($this->make('Pusher\Dashboard'), 'getPluginsCreate'));
         add_submenu_page('nwcybersolutions_gm', 'NWCS GitHub Manager Plugins', 'Plugins', 'manage_options', 'nwcybersolutions_gm-plugins', array($this->make('Pusher\Dashboard'), 'getPlugins'));
         add_submenu_page('nwcybersolutions_gm', 'Install Theme', 'Install Theme', 'manage_options', 'nwcybersolutions_gm-themes-create', array($this->make('Pusher\Dashboard'), 'getThemesCreate'));
