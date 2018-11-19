@@ -59,7 +59,7 @@ class Pusher implements Container
 
     public function getName()
     {
-        return 'NWCS GitHub Manager';
+        return 'GitHub Manager';
     }
 
     public function hasValidLicenseKey()
